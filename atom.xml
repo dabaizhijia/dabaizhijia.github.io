@@ -6,7 +6,7 @@
   <link href="https://www.342311.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.342311.xyz/"/>
-  <updated>2025-07-21T06:16:46.334Z</updated>
+  <updated>2025-07-21T06:35:36.790Z</updated>
   <id>https://www.342311.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开源阅读：玩转书源自定义，告别无书可读烦恼</title>
+    <link href="https://www.342311.xyz/2025/07/21/%E5%BC%80%E6%BA%90%E9%98%85%E8%AF%BB%EF%BC%9A%E7%8E%A9%E8%BD%AC%E4%B9%A6%E6%BA%90%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%8C%E5%91%8A%E5%88%AB%E6%97%A0%E4%B9%A6%E5%8F%AF%E8%AF%BB%E7%83%A6%E6%81%BC/"/>
+    <id>https://www.342311.xyz/2025/07/21/%E5%BC%80%E6%BA%90%E9%98%85%E8%AF%BB%EF%BC%9A%E7%8E%A9%E8%BD%AC%E4%B9%A6%E6%BA%90%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%8C%E5%91%8A%E5%88%AB%E6%97%A0%E4%B9%A6%E5%8F%AF%E8%AF%BB%E7%83%A6%E6%81%BC/</id>
+    <published>2025-07-21T06:21:11.000Z</published>
+    <updated>2025-07-21T06:35:36.790Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="开源阅读：小说爱好者的专属自由天地"><a href="#开源阅读：小说爱好者的专属自由天地" class="headerlink" title="开源阅读：小说爱好者的专属自由天地"></a>开源阅读：小说爱好者的专属自由天地</h1><p>刷小说时总被广告打断？想看的冷门小说找不到资源？订阅会员价格越来越高？如果你也有这些烦恼，那这款<strong>专注小说阅读的开源神器</strong>，绝对能让你眼前一亮 —— 无广告、全免费，让你沉浸式畅游小说世界。</p><h2 id="小说资源，想读就有"><a href="#小说资源，想读就有" class="headerlink" title="小说资源，想读就有"></a>小说资源，想读就有</h2><h3 id="✅-全网小说一键聚合"><a href="#✅-全网小说一键聚合" class="headerlink" title="✅ 全网小说一键聚合"></a>✅ 全网小说一键聚合</h3><p>无论是热门的玄幻修仙、都市言情，还是小众的悬疑推理、历史穿越，开源阅读都能满足你。它支持自定义书源，你可以轻松抓取各大小说网站的资源，把散落在网络各处的小说都集中到一个软件里，再也不用在多个平台之间来回切换。</p><h3 id="✅-找书超简单"><a href="#✅-找书超简单" class="headerlink" title="✅ 找书超简单"></a>✅ 找书超简单</h3><p>软件内置的书源支持搜索及发现功能，输入小说名或作者名，就能快速找到你想看的作品。你还能导入其他小说爱好者分享的优质书源，轻松获取那些难以寻觅的小说资源，让你不再为找不到书而发愁。</p><h2 id="小说阅读，怎么舒服怎么来"><a href="#小说阅读，怎么舒服怎么来" class="headerlink" title="小说阅读，怎么舒服怎么来"></a>小说阅读，怎么舒服怎么来</h2><h3 id="📝-打造你的专属小说阅读界面"><a href="#📝-打造你的专属小说阅读界面" class="headerlink" title="📝 打造你的专属小说阅读界面"></a>📝 打造你的专属小说阅读界面</h3><p>看小说时，界面不舒服可不行。开源阅读让你自由定制阅读界面：字体、颜色、背景、行距、段距随意调整，加粗、简繁转换也能一键完成。喜欢看纸质书的感觉？调整参数，让界面秒变仿真书页。晚上躲在被窝里看？切换到柔和的夜间模式，保护眼睛不受伤。</p><h3 id="📖-多种阅读模式适配小说节奏"><a href="#📖-多种阅读模式适配小说节奏" class="headerlink" title="📖 多种阅读模式适配小说节奏"></a>📖 多种阅读模式适配小说节奏</h3><p>不同的小说有不同的阅读节奏，开源阅读支持覆盖、仿真、滑动、滚动等多种翻页模式，你可以根据小说的情节快慢选择合适的翻页方式。而且，它还支持 TTS 引擎朗读，当你不想用眼时，让软件为你朗读小说，听着精彩的故事情节，别有一番滋味。</p><h2 id="小说阅读细节，贴心到位"><a href="#小说阅读细节，贴心到位" class="headerlink" title="小说阅读细节，贴心到位"></a>小说阅读细节，贴心到位</h2><ul><li><strong>进度同步不丢失</strong>：看小说最烦读到一半进度没了，这款软件支持通过 WebDav 自动备份阅读进度，换手机也能接着上次的地方继续读。</li><li><strong>本地小说轻松读</strong>：如果你有下载到本地的 TXT、EPUB 格式小说，手动浏览、智能扫描功能能快速帮你找到，随时开启阅读。</li><li><strong>持续优化为小说党</strong>：开源社区有很多小说爱好者参与优化，会根据大家的反馈不断提升小说阅读体验，让软件越来越懂小说读者。</li></ul><h2 id="如何拥有这款小说阅读神器？"><a href="#如何拥有这款小说阅读神器？" class="headerlink" title="如何拥有这款小说阅读神器？"></a>如何拥有这款小说阅读神器？</h2><p>打开<a href="https://yd.mgz6.com/">开源阅读</a>，即可领取：</p><ul><li>开源阅读软件安装包</li><li>精选小说书源合集</li><li>小说阅读专属设置教程</li></ul><p>别再让广告和付费影响你读小说的心情。快来试试开源阅读，让每一次追更都畅快淋漓，沉浸在小说的精彩世界里。</p><p>当然软件不止可以看书只要书源找好看出版书籍、听书、看剧、漫画等都是可以的，更多的需要你自己去体验了！</p><hr><p>我的公众号文章也可以看下，写的还是比较具体的:</p><h2 id="开源阅读-此链接可以退直接点击"><a href="#开源阅读-此链接可以退直接点击" class="headerlink" title="开源阅读    此链接可以退直接点击"></a><a href="https://mp.weixin.qq.com/s/-ZV-4zbgdkRgh7Rsx2dYiA">开源阅读</a>    <strong>此链接可以退直接点击</strong></h2><p>如果文章对你有所帮助的话也欢迎关注一下我的公众号！</p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://pic.342311.xyz/PicGo/20250625232649423.png"></h2>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="手机软件" scheme="https://www.342311.xyz/categories/%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="阅读软件" scheme="https://www.342311.xyz/tags/%E9%98%85%E8%AF%BB%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="手机软件" scheme="https://www.342311.xyz/tags/%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>博看书苑：开启你的智能阅读之旅</title>
@@ -50,7 +79,7 @@
     <link href="https://www.342311.xyz/2025/07/21/%E3%80%90%E6%AF%8F%E6%97%A5%E6%97%A9%E6%8A%A5%E3%80%91-2025-07-21%20-%20%E6%98%9F%E6%9C%9F%E4%B8%80/"/>
     <id>https://www.342311.xyz/2025/07/21/%E3%80%90%E6%AF%8F%E6%97%A5%E6%97%A9%E6%8A%A5%E3%80%91-2025-07-21%20-%20%E6%98%9F%E6%9C%9F%E4%B8%80/</id>
     <published>2025-07-20T16:00:00.000Z</published>
-    <updated>2025-07-21T06:17:10.725Z</updated>
+    <updated>2025-07-21T06:36:03.927Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>每日早报</title></head><body>    <div style="text-align: center;"> <img src="https://file.alapi.cn/60s/202507211753053302.png"            alt="每日早报" width="100%"> </div></body></html>]]></content>
     
@@ -534,33 +563,6 @@
     <category term="网站" scheme="https://www.342311.xyz/tags/%E7%BD%91%E7%AB%99/"/>
     
     <category term="国外" scheme="https://www.342311.xyz/tags/%E5%9B%BD%E5%A4%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>告别千篇一律！这款手写体生成器，让你的文字自带温度</title>
-    <link href="https://www.342311.xyz/2025/07/14/%E5%91%8A%E5%88%AB%E5%8D%83%E7%AF%87%E4%B8%80%E5%BE%8B%EF%BC%81%E8%BF%99%E6%AC%BE%E6%89%8B%E5%86%99%E4%BD%93%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%E6%96%87%E5%AD%97%E8%87%AA%E5%B8%A6%E6%B8%A9%E5%BA%A6/"/>
-    <id>https://www.342311.xyz/2025/07/14/%E5%91%8A%E5%88%AB%E5%8D%83%E7%AF%87%E4%B8%80%E5%BE%8B%EF%BC%81%E8%BF%99%E6%AC%BE%E6%89%8B%E5%86%99%E4%BD%93%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%E6%96%87%E5%AD%97%E8%87%AA%E5%B8%A6%E6%B8%A9%E5%BA%A6/</id>
-    <published>2025-07-14T00:06:45.000Z</published>
-    <updated>2025-07-14T00:13:50.522Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="告别千篇一律！这款手写体生成器，让你的文字自带温度✨"><a href="#告别千篇一律！这款手写体生成器，让你的文字自带温度✨" class="headerlink" title="告别千篇一律！这款手写体生成器，让你的文字自带温度✨"></a>告别千篇一律！这款手写体生成器，让你的文字自带温度✨</h1><p>还在为文案缺乏个性而烦恼？想让重要的文字更有仪式感？今天给大家安利一个超实用的工具 ——<strong>vtool 手写体文稿生成器</strong>，轻松把普通文字变成充满温度的手写体，无论是分享诗词、记录心情还是制作贺卡，都能瞬间提升质感！</p><h2 id="✍️-它能做什么？"><a href="#✍️-它能做什么？" class="headerlink" title="✍️ 它能做什么？"></a>✍️ 它能做什么？</h2><p>只需输入文字，就能一键生成手写体文稿图片。以经典的《沁园春・雪》为例，输入全文后，系统会自动转换为自然流畅的手写风格，从 “北国风光，千里冰封” 到 “数风流人物，还看今朝”，笔墨间的韵味让经典更添感染力。</p><h2 id="🎨-自定义你的专属风格"><a href="#🎨-自定义你的专属风格" class="headerlink" title="🎨 自定义你的专属风格"></a>🎨 自定义你的专属风格</h2><p>不想局限于默认效果？丰富的定制功能帮你打造独一无二的手写作品：</p><ul><li><strong>字体选择</strong>：自带「Homemade Apple」等手写字体，笔触自然，仿佛真实书写</li><li><strong>纸张与布局</strong>：可调整纸张类型（默认无纸张背景，适合直接复用）、边距（顶部 50、左右 30 为常用参数）、线条显示，模拟真实书写场景</li><li><strong>文字细节</strong>：字体大小（默认 10 号）、颜色（默认深邃蓝 #000f55）、对齐方式（默认居左）均可修改，适配不同场景需求</li><li><strong>进阶效果</strong>：支持调整字间距、垂直位置，添加光影等特殊效果，让文字更有层次感</li></ul><h2 id="📌-适用场景大公开"><a href="#📌-适用场景大公开" class="headerlink" title="📌 适用场景大公开"></a>📌 适用场景大公开</h2><ul><li>诗词分享：给经典诗句穿上 “手写外衣”，朋友圈文案秒变高级</li><li>节日祝福：手写体贺卡、邀请函，比打印文字更显诚意</li><li>学习笔记：生成手写体错题、知识点，方便整理和记忆</li><li>设计素材：作为海报、视频字幕的手写元素，提升视觉质感</li></ul><h2 id="🌟-立即体验"><a href="#🌟-立即体验" class="headerlink" title="🌟 立即体验"></a>🌟 立即体验</h2><p>打开链接：<a href="https://vtool.pro/handwriting/index.html">vtool 手写体文稿生成器</a>，输入你的文字，几分钟就能收获专属手写作品～ 若有使用问题或建议，还可以添加微信【imjimi8】反馈哦！</p><p>试试用手写体，让文字传递更多情绪吧～ 💌</p><hr><p>我的公众号文章也可以看下，写的还是比较具体的:</p><blockquote><p><a href="https://mp.weixin.qq.com/s/tRKUKqhMKKmQQwr999V-OQ">手写文稿生成器</a>  <strong>此链接可以直接点击</strong></p></blockquote><hr><p>如果文章对你有所帮助的话可以关注❤️ 一下我的公众号！</p><p><img src="https://pic.342311.xyz/PicGo/20250625232649423.png"></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="网站" scheme="https://www.342311.xyz/tags/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="手写体生成器" scheme="https://www.342311.xyz/tags/%E6%89%8B%E5%86%99%E4%BD%93%E7%94%9F%E6%88%90%E5%99%A8/"/>
     
   </entry>
   
