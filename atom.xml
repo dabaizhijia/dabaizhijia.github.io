@@ -6,7 +6,7 @@
   <link href="https://www.342311.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.342311.xyz/"/>
-  <updated>2025-07-30T22:45:32.766Z</updated>
+  <updated>2025-08-01T15:18:57.214Z</updated>
   <id>https://www.342311.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【每日早报】-2025-08-01 - 星期五</title>
+    <link href="https://www.342311.xyz/post/20250801000000.html/"/>
+    <id>https://www.342311.xyz/post/20250801000000.html/</id>
+    <published>2025-07-31T16:00:00.000Z</published>
+    <updated>2025-08-01T15:18:57.214Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>每日早报</title></head><body>    <div style="text-align: center;"> <img src="https://file.alapi.cn/60s/202508011753987502.png"            alt="每日早报" width="100%"> </div></body></html>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="每日早报" scheme="https://www.342311.xyz/categories/%E6%AF%8F%E6%97%A5%E6%97%A9%E6%8A%A5/"/>
+    
+    
+    <category term="每日早报" scheme="https://www.342311.xyz/tags/%E6%AF%8F%E6%97%A5%E6%97%A9%E6%8A%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -546,33 +573,6 @@
     <category term="网站" scheme="https://www.342311.xyz/tags/%E7%BD%91%E7%AB%99/"/>
     
     <category term="阅读" scheme="https://www.342311.xyz/tags/%E9%98%85%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【每日早报】-2025-07-22 - 星期二</title>
-    <link href="https://www.342311.xyz/post/20250722000000.html/"/>
-    <id>https://www.342311.xyz/post/20250722000000.html/</id>
-    <published>2025-07-21T16:00:00.000Z</published>
-    <updated>2025-07-22T06:22:18.095Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>每日早报</title></head><body>    <div style="text-align: center;"> <img src="https://file.alapi.cn/60s/202507221753141245.png"            alt="每日早报" width="100%"> </div></body></html>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="每日早报" scheme="https://www.342311.xyz/categories/%E6%AF%8F%E6%97%A5%E6%97%A9%E6%8A%A5/"/>
-    
-    
-    <category term="每日早报" scheme="https://www.342311.xyz/tags/%E6%AF%8F%E6%97%A5%E6%97%A9%E6%8A%A5/"/>
     
   </entry>
   
