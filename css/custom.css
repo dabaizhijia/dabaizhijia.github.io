@@ -1,0 +1,16 @@
+/* 公告栏图片响应式缩放 */
+.card-announcement img {
+  max-width: 65% !important;
+  height: auto;
+  display: block;
+  margin: 8px auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .card-announcement img {
+    max-width: 85% !important;
+  }
+}
