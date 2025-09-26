@@ -1,0 +1,327 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Breezy Weather：天气指南 | 烟雨小屋</title><meta name="author" content="烟雨"><meta name="copyright" content="烟雨"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="Breezy Weather：不止是天气，更是生活的贴心指南** 清晨出门是否该带伞？周末野餐能否如期赴约？出差途中会不会遇到暴雨延误？天气的每一丝变化，都牵动着日常的节奏。Breezy Weather 以「精准、灵活、安心」为核心，打破传统天气软件的局限，成为你身边懂天气、更懂生活的智能伴侣。 一、数据精准到 “小时”，生活规划不踩坑天气的不确定性，往往是打乱计划的元凶。Breezy Weath">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Breezy Weather：天气指南">
+<meta property="og:url" content="https://www.342311.xyz/posts/d54981d1/">
+<meta property="og:site_name" content="烟雨小屋">
+<meta property="og:description" content="Breezy Weather：不止是天气，更是生活的贴心指南** 清晨出门是否该带伞？周末野餐能否如期赴约？出差途中会不会遇到暴雨延误？天气的每一丝变化，都牵动着日常的节奏。Breezy Weather 以「精准、灵活、安心」为核心，打破传统天气软件的局限，成为你身边懂天气、更懂生活的智能伴侣。 一、数据精准到 “小时”，生活规划不踩坑天气的不确定性，往往是打乱计划的元凶。Breezy Weath">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.342311.xyz/PicGo/20250827174304682.png">
+<meta property="article:published_time" content="2025-08-27T09:36:13.000Z">
+<meta property="article:modified_time" content="2025-08-27T09:45:17.181Z">
+<meta property="article:author" content="烟雨">
+<meta property="article:tag" content="手机软件">
+<meta property="article:tag" content="开源">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.342311.xyz/PicGo/20250827174304682.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Breezy Weather：天气指南",
+  "url": "https://www.342311.xyz/posts/d54981d1/",
+  "image": "https://pic.342311.xyz/PicGo/20250827174304682.png",
+  "datePublished": "2025-08-27T09:36:13.000Z",
+  "dateModified": "2025-08-27T09:45:17.181Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "烟雨",
+      "url": "https://www.342311.xyz"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/images/p1.webp"><link rel="canonical" href="https://www.342311.xyz/posts/d54981d1/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="codeva-XVun4l72Xr"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 20
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":150,"languages":{"author":"作者: 烟雨","link":"链接: ","source":"来源: 烟雨小屋","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Breezy Weather：天气指南',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-image: url(https://cdn.pixabay.com/photo/2022/08/31/06/55/seaside-promenade-7422541_1280.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/images/p1.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">36</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url(https://pic.342311.xyz/PicGo/20250827174304682.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">烟雨小屋</span></a><a class="nav-page-title" href="/"><span class="site-name">Breezy Weather：天气指南</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Breezy Weather：天气指南</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-08-27T09:36:13.000Z" title="发表于 2025-08-27 17:36:13">2025-08-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-08-27T09:45:17.181Z" title="更新于 2025-08-27 17:45:17">2025-08-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/">手机软件</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">1.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="Breezy-Weather：不止是天气，更是生活的贴心指南"><a href="#Breezy-Weather：不止是天气，更是生活的贴心指南" class="headerlink" title="Breezy Weather：不止是天气，更是生活的贴心指南"></a>Breezy Weather：不止是天气，更是生活的贴心指南</h1><p>**</p>
+<p>清晨出门是否该带伞？周末野餐能否如期赴约？出差途中会不会遇到暴雨延误？天气的每一丝变化，都牵动着日常的节奏。<strong>Breezy Weather</strong> 以「精准、灵活、安心」为核心，打破传统天气软件的局限，成为你身边懂天气、更懂生活的智能伴侣。</p>
+<h2 id="一、数据精准到-“小时”，生活规划不踩坑"><a href="#一、数据精准到-“小时”，生活规划不踩坑" class="headerlink" title="一、数据精准到 “小时”，生活规划不踩坑"></a>一、数据精准到 “小时”，生活规划不踩坑</h2><p>天气的不确定性，往往是打乱计划的元凶。Breezy Weather 用「全维度 + 长周期」的预报能力，帮你把主动权握在手里：</p>
+<ul>
+<li><strong>16 天超长预报</strong>：从本周通勤到下周旅行，提前锁定天气趋势，行程安排更从容；</li>
+<li><strong>小时级细节覆盖</strong>：温度起伏、风力大小、紫外线强度、湿度变化…… 甚至未来 1 小时是否下雨、下多大，数据清晰可见，穿搭、出行、晾晒全不慌；</li>
+<li><strong>特殊场景专属提醒</strong>：花粉浓度高时提醒戴口罩，霉菌活跃期提示通风，太阳月亮星历帮摄影爱好者找准拍摄时机；</li>
+<li><strong>恶劣天气秒级警报</strong>：暴雨、台风、高温等极端天气来临前，主动推送预警，让你有充足时间做好防护。</li>
+</ul>
+<h2 id="二、50-天气来源任选，精准度自己掌控"><a href="#二、50-天气来源任选，精准度自己掌控" class="headerlink" title="二、50 + 天气来源任选，精准度自己掌控"></a>二、50 + 天气来源任选，精准度自己掌控</h2><p>不同地区、不同需求，对天气来源的偏好也不同。Breezy Weather 打破 “单一数据源” 限制，给你更灵活的选择：</p>
+<ul>
+<li><strong>默认智能推荐</strong>：根据你的所在国家 &#x2F; 地区，自动匹配当地权威数据源，无需手动筛选，开箱即用；</li>
+<li><strong>50 + 来源自由切换</strong>：支持 Open-Meteo、AccuWeather、WeatherBit 等全球主流数据源，可对比不同来源的预报结果，选最贴合你需求的那一个；</li>
+<li><strong>隐私友好型优选</strong>：若所在地区无专属数据源，默认推荐 <strong>Open-Meteo</strong>—— 免费开源、不收集隐私，数据全面性堪比 AccuWeather，部分地区精准度更优；</li>
+<li><strong>功能互补提示</strong>：若某数据源缺少特定功能（如空气质量指数），应用会主动建议搭配其他来源使用，确保信息不缺失。</li>
+</ul>
+<h2 id="三、颜值与个性兼具，每一次打开都舒心"><a href="#三、颜值与个性兼具，每一次打开都舒心" class="headerlink" title="三、颜值与个性兼具，每一次打开都舒心"></a>三、颜值与个性兼具，每一次打开都舒心</h2><p>好的工具，既要好用，也要好看。Breezy Weather 以「Material Design」为基础，打造简洁却不单调的视觉体验：</p>
+<ul>
+<li><strong>流畅动画 + 干净界面</strong>：没有冗余广告，天气变化以轻量动画呈现（如下雨时的雨滴效果、晴天的阳光渐变），视觉清爽不杂乱；</li>
+<li><strong>自动深色模式</strong>：白天适配明亮光线，夜晚自动切换深色界面，保护视力，也符合手机使用习惯；</li>
+<li><strong>自定义程度拉满</strong>：支持更换图标包（可爱风、简约风、科技风等），主屏幕小部件有多种尺寸和样式可选，手机桌面瞬间变精致；</li>
+<li><strong>实时天气壁纸</strong>：壁纸随天气变化自动更新（如雨天显示阴天背景、雪天切换雪地场景），让手机桌面成为 “实时天气看板”。</li>
+</ul>
+<h2 id="四、开源-零隐私泄露，用得安心才是真放心"><a href="#四、开源-零隐私泄露，用得安心才是真放心" class="headerlink" title="四、开源 + 零隐私泄露，用得安心才是真放心"></a>四、开源 + 零隐私泄露，用得安心才是真放心</h2><p>在数据时代，隐私安全比什么都重要。Breezy Weather 从底层设计就把 “隐私保护” 放在首位：</p>
+<ul>
+<li><strong>100% 免费开源</strong>：无付费会员、无内购，所有代码公开可查，没有隐藏功能或恶意插件；</li>
+<li><strong>发布流程透明</strong>：每一个版本都通过 GitHub Actions 自动生成，确保发布的安装包与公开代码完全一致，杜绝篡改风险；</li>
+<li><strong>定位隐私自主控制</strong>：使用当前位置时，可选择「IP 定位」替代「GPS 定位」，仅发送模糊坐标，既不影响天气精准度，又避免精确位置泄露；</li>
+<li><strong>零追踪、零上报</strong>：应用内没有任何用户追踪器，也不自动收集崩溃报告，你的使用数据只属于你自己。</li>
+</ul>
+<h2 id="结语：从-“看天气”-到-“用天气”，Breezy-Weather-陪你过好每一天"><a href="#结语：从-“看天气”-到-“用天气”，Breezy-Weather-陪你过好每一天" class="headerlink" title="结语：从 “看天气” 到 “用天气”，Breezy Weather 陪你过好每一天"></a>结语：从 “看天气” 到 “用天气”，Breezy Weather 陪你过好每一天</h2><p>无论是上班族靠它规划通勤，宝妈用它安排带娃出行，还是户外爱好者凭它判断活动时机，Breezy Weather 都能以精准的数据、灵活的选择、贴心的设计，帮你把天气信息转化为生活的 “决策助力”。</p>
+<p>现在下载 <strong>Breezy Weather</strong>，让每一次出门都有底气，每一个计划都不被天气打乱 —— 懂天气，更懂你的生活，从这一步开始。</p>
+<p><strong>我的公众号文章</strong></p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/p99Jukz4IK9xppLCSdUY3g">https://mp.weixin.qq.com/s/p99Jukz4IK9xppLCSdUY3g</a></p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://www.342311.xyz">烟雨</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://www.342311.xyz/posts/d54981d1/">https://www.342311.xyz/posts/d54981d1/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://www.342311.xyz" target="_blank">烟雨小屋</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/">手机软件</a><a class="post-meta__tags" href="/tags/%E5%BC%80%E6%BA%90/">开源</a></div><div class="post-share"><div class="social-share" data-image="https://pic.342311.xyz/PicGo/20250827174304682.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/wechat.jpeg" target="_blank"><img class="post-qr-code-img" src="/images/wechat.jpeg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/images/alipay.jpeg" target="_blank"><img class="post-qr-code-img" src="/images/alipay.jpeg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/c0b62d32/" title="告别 PNG 臃肿！在线压缩，画质不丢、速度翻倍！"><img class="cover" src="https://pic.342311.xyz/PicGo/20250827175430312.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">告别 PNG 臃肿！在线压缩，画质不丢、速度翻倍！</div></div><div class="info-2"><div class="info-item-1">一、这些 PNG 烦恼，你是否也中招？ 精心设计的 P...</div></div></div></a><a class="pagination-related" href="/posts/c0a2cd8b/" title="GKD 软件：告别广告困扰，畅享便捷体验"><img class="cover" src="https://pic.342311.xyz/PicGo/20250827163356562.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">GKD 软件：告别广告困扰，畅享便捷体验</div></div><div class="info-2"><div class="info-item-1">GKD 软件：告别广告困扰，畅享便捷体验 一、广告难题...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/beabf480/" title="告别广告与不准！Breezy Weather：让查天气像微风般舒服"><img class="cover" src="https://pic.342311.xyz/PicGo/20250926194957115.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-09-26</div><div class="info-item-2">告别广告与不准！Breezy Weather：让查天气像微风般舒服</div></div><div class="info-2"><div class="info-item-1">🌧️ 一、为什么我们总在抱怨天气 APP？刚点开就弹...</div></div></div></a><a class="pagination-related" href="/posts/5c7d8a7c/" title=" Koodo Reader：重新定义你的数字阅读世界"><img class="cover" src="https://pic.342311.xyz/PicGo/20250828224318494.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-08-28</div><div class="info-item-2"> Koodo Reader：重新定义你的数字阅读世界</div></div><div class="info-2"><div class="info-item-1">Koodo Reader：重新定义你的数字阅读世界还在...</div></div></div></a><a class="pagination-related" href="/posts/55f6bcfb/" title="Alger Music Player—— 开源免费音乐工具！"><img class="cover" src="https://pic.342311.xyz/PicGo/20250828223457976.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-08-28</div><div class="info-item-2">Alger Music Player—— 开源免费音乐工具！</div></div><div class="info-2"><div class="info-item-1">Alger Music Player：打破音乐枷锁，畅...</div></div></div></a><a class="pagination-related" href="/posts/f4c9cedc/" title="Animeko：承包你所有追番快乐的全能神器"><img class="cover" src="https://pic.342311.xyz/PicGo/20250827114413852.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-07-17</div><div class="info-item-2">Animeko：承包你所有追番快乐的全能神器</div></div><div class="info-2"><div class="info-item-1">Animeko：承包你所有追番快乐的全能神器** 还在...</div></div></div></a><a class="pagination-related" href="/posts/c0a2cd8b/" title="GKD 软件：告别广告困扰，畅享便捷体验"><img class="cover" src="https://pic.342311.xyz/PicGo/20250827163356562.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-08-27</div><div class="info-item-2">GKD 软件：告别广告困扰，畅享便捷体验</div></div><div class="info-2"><div class="info-item-1">GKD 软件：告别广告困扰，畅享便捷体验 一、广告难题...</div></div></div></a><a class="pagination-related" href="/posts/2fee3ce/" title="LocalSend：告别传输烦恼，局域网内秒传文件"><img class="cover" src="https://pic.342311.xyz/PicGo/20250829113055878.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-08-29</div><div class="info-item-2">LocalSend：告别传输烦恼，局域网内秒传文件</div></div><div class="info-2"><div class="info-item-1">LocalSend：告别传输烦恼，局域网内秒传文件在手...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/images/p1.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">烟雨</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">36</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/dabaizhijia/dabaizhijia.github.io"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="mailto:yanyu321@126.com" target="_blank" title="邮箱"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://120512.xyz/" target="_blank" title="我的导航"><i class="fa-solid fa-bars"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客，感谢支持！有兴趣的可以关注一下我的公众号！ <img src="https://pic.342311.xyz/PicGo/20250625232649423.png" width="180"></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Breezy-Weather%EF%BC%9A%E4%B8%8D%E6%AD%A2%E6%98%AF%E5%A4%A9%E6%B0%94%EF%BC%8C%E6%9B%B4%E6%98%AF%E7%94%9F%E6%B4%BB%E7%9A%84%E8%B4%B4%E5%BF%83%E6%8C%87%E5%8D%97"><span class="toc-number">1.</span> <span class="toc-text">Breezy Weather：不止是天气，更是生活的贴心指南</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%95%B0%E6%8D%AE%E7%B2%BE%E5%87%86%E5%88%B0-%E2%80%9C%E5%B0%8F%E6%97%B6%E2%80%9D%EF%BC%8C%E7%94%9F%E6%B4%BB%E8%A7%84%E5%88%92%E4%B8%8D%E8%B8%A9%E5%9D%91"><span class="toc-number">1.1.</span> <span class="toc-text">一、数据精准到 “小时”，生活规划不踩坑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%8150-%E5%A4%A9%E6%B0%94%E6%9D%A5%E6%BA%90%E4%BB%BB%E9%80%89%EF%BC%8C%E7%B2%BE%E5%87%86%E5%BA%A6%E8%87%AA%E5%B7%B1%E6%8E%8C%E6%8E%A7"><span class="toc-number">1.2.</span> <span class="toc-text">二、50 + 天气来源任选，精准度自己掌控</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%A2%9C%E5%80%BC%E4%B8%8E%E4%B8%AA%E6%80%A7%E5%85%BC%E5%85%B7%EF%BC%8C%E6%AF%8F%E4%B8%80%E6%AC%A1%E6%89%93%E5%BC%80%E9%83%BD%E8%88%92%E5%BF%83"><span class="toc-number">1.3.</span> <span class="toc-text">三、颜值与个性兼具，每一次打开都舒心</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%BC%80%E6%BA%90-%E9%9B%B6%E9%9A%90%E7%A7%81%E6%B3%84%E9%9C%B2%EF%BC%8C%E7%94%A8%E5%BE%97%E5%AE%89%E5%BF%83%E6%89%8D%E6%98%AF%E7%9C%9F%E6%94%BE%E5%BF%83"><span class="toc-number">1.4.</span> <span class="toc-text">四、开源 + 零隐私泄露，用得安心才是真放心</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD%EF%BC%9A%E4%BB%8E-%E2%80%9C%E7%9C%8B%E5%A4%A9%E6%B0%94%E2%80%9D-%E5%88%B0-%E2%80%9C%E7%94%A8%E5%A4%A9%E6%B0%94%E2%80%9D%EF%BC%8CBreezy-Weather-%E9%99%AA%E4%BD%A0%E8%BF%87%E5%A5%BD%E6%AF%8F%E4%B8%80%E5%A4%A9"><span class="toc-number">1.5.</span> <span class="toc-text">结语：从 “看天气” 到 “用天气”，Breezy Weather 陪你过好每一天</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/beabf480/" title="告别广告与不准！Breezy Weather：让查天气像微风般舒服"><img src="https://pic.342311.xyz/PicGo/20250926194957115.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="告别广告与不准！Breezy Weather：让查天气像微风般舒服"/></a><div class="content"><a class="title" href="/posts/beabf480/" title="告别广告与不准！Breezy Weather：让查天气像微风般舒服">告别广告与不准！Breezy Weather：让查天气像微风般舒服</a><time datetime="2025-09-26T11:40:40.000Z" title="发表于 2025-09-26 19:40:40">2025-09-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/fb0e21a1/" title="解压缩软件"><img src="https://pic.342311.xyz/PicGo/20250926194308720.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="解压缩软件"/></a><div class="content"><a class="title" href="/posts/fb0e21a1/" title="解压缩软件">解压缩软件</a><time datetime="2025-09-26T11:40:40.000Z" title="发表于 2025-09-26 19:40:40">2025-09-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/a70fc12b/" title="【每日早报】-2025-09-26 - 星期五"><img src="https://file.alapi.cn/60s/202509261758826802_head.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【每日早报】-2025-09-26 - 星期五"/></a><div class="content"><a class="title" href="/posts/a70fc12b/" title="【每日早报】-2025-09-26 - 星期五">【每日早报】-2025-09-26 - 星期五</a><time datetime="2025-09-25T16:00:00.000Z" title="发表于 2025-09-26 00:00:00">2025-09-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/a4d022d8/" title="Joplin：让每一次记录都安心又高效"><img src="https://pic.342311.xyz/PicGo/20250926193405634.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Joplin：让每一次记录都安心又高效"/></a><div class="content"><a class="title" href="/posts/a4d022d8/" title="Joplin：让每一次记录都安心又高效">Joplin：让每一次记录都安心又高效</a><time datetime="2025-09-16T09:05:34.000Z" title="发表于 2025-09-16 17:05:34">2025-09-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/57d5734b/" title="Office Tool Plus：强大的 Office 一站式解决方案"><img src="https://pic.342311.xyz/PicGo/20250916172454065.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Office Tool Plus：强大的 Office 一站式解决方案"/></a><div class="content"><a class="title" href="/posts/57d5734b/" title="Office Tool Plus：强大的 Office 一站式解决方案">Office Tool Plus：强大的 Office 一站式解决方案</a><time datetime="2025-09-16T09:05:34.000Z" title="发表于 2025-09-16 17:05:34">2025-09-16</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://pic.342311.xyz/PicGo/20250827174304682.png);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2024 - 2025 By 烟雨</span></div><div class="footer_custom_text"><div style="text-align: center; margin-top: 10px;"><a href="https://icp.gov.moe/?keyword=20250273" target="_blank">萌ICP备20250273号</a></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://talk.342311.xyz/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://talk.342311.xyz/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><div class="aplayer no-destroy" data-id="13408860705" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div><script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script><script src="/js/func.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script>(() => {
+  const destroyAplayer = () => {
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        if (!window.aplayers[i].options.fixed) {
+          window.aplayers[i].destroy()
+        }
+      }
+    }
+  }
+
+  const runMetingJS = () => {
+    typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+  }
+
+  btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
+  btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      const usePjax = true
+      false
+        ? (usePjax ? pjax.loadUrl('/404') : window.location.href = '/404')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
